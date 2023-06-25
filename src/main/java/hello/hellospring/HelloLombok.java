@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
-@RequiredArgsConstructor
+@RequiredArgsConstructor  // final쓸때 사용
 @Getter
 
 public class HelloLombok {
