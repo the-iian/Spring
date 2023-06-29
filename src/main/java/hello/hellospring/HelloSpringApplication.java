@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HelloSpringApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(HelloSpringApplication.class, args);
 	}
 	// 프로젝트 생성 연습
