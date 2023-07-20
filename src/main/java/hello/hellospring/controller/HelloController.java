@@ -24,7 +24,7 @@ public class HelloController {
         // 템플릿엔진 : view라는 템플릿이 있는 상황에서 조작하는 방식
     }
 
-    // API - 문자를 바로 반환 (이렇게 문자를 출력하는건 사용할 일이 없음)
+    // API - 문자를 바로 반환 (이렇게 문자로 출력하는건 사용할 일이 없음)
     @GetMapping("hello-string")
     @ResponseBody // http에서 body부에 이 데이터를 직접 넣어주겠다는 의미, view없이 문자가 그대로 내려감.
     public String helloString(@RequestParam("name") String name) {
